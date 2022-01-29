@@ -1,0 +1,38 @@
+{
+  "name": "worker-magic",
+  "version": "0.1.0",
+  "description": "Make web workers fun!",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "buildtests": "tsc --project tests/tsconfig.json && echo '`npm run testserver` & Navigate to 127.0.0.1:8080/tests to run tests'",
+    "testserver": "http-server ./ -d -c-1"
+  },
+  "keywords": [
+    "web worker",
+    "worker",
+    "async",
+    "asynchronous",
+    "proxy",
+    "promise",
+    "simple",
+    "magic"
+  ],
+  "author": "RedstoneWizard22",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "chai": "^4.3.6",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.4",
+    "http-server": "^14.1.0",
+    "mocha": "^9.2.0",
+    "prettier": "^2.5.1",
+    "prettier-eslint": "^13.0.0",
+    "typescript": "^4.5.5"
+  }
+}

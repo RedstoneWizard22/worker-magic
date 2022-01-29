@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "strict": true,
+    "lib": ["ES6", "webworker"],
+    "declaration": true,
+    "outDir": "./dist",
+    "moduleResolution": "node"
+  },
+  "include": ["src"]
+}
