@@ -28,6 +28,7 @@
   "bugs": {
     "url": "https://github.com/RedstoneWizard22/worker-magic/issues"
   },
+  "sideEffects": false,
   "devDependencies": {
     "@types/chai": "^4.3.0",
     "@types/mocha": "^9.1.0",
