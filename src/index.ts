@@ -1,5 +1,6 @@
-import { expose, wrap } from './proxy-worker.js';
-import type { WorkerWrapper } from './proxy-worker.js';
+import { expose } from './expose.js';
+import { wrap } from './wrap.js';
+import type { WorkerWrapper } from './types.js';
 
 export { expose, wrap };
 export { WorkerWrapper };
